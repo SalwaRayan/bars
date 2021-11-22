@@ -38,7 +38,7 @@ const Marker = props => {
         style={{
           width: '40px',
           height: '40px',
-          color: `${props.marker === " my-position" ? 'red' : !display ? 'gray' : 'blue'}`,
+          color: `${props.marker === 'local-position' && !display ? 'gray' : 'red'}`,
           position: 'absolute',
           bottom: '100%',
           left: '-20px',
