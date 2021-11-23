@@ -25,7 +25,7 @@ const Marker = props => {
             background: 'white',
             borderRadius: '10px',
             // lineHeight: '5px',
-            padding: '5px',
+            padding: '0 5px',
             zIndex: 10,
           }}
         >
